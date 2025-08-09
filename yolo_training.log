@@ -1,0 +1,19 @@
+2025-08-09 13:21:37,891 - INFO - Using device : cuda
+2025-08-09 13:21:37,892 - INFO - Loading food-101 dataset
+2025-08-09 13:21:37,941 - INFO - Initialized dataset with 500 images 
+2025-08-09 13:21:37,941 - INFO - Initialized dataset with 100 images 
+2025-08-09 13:21:37,941 - INFO - Loaded 500 train and 100 test images
+2025-08-09 13:21:37,941 - INFO - Setting up YOLOv8 models (nano and samll)
+2025-08-09 13:21:45,057 - INFO - Starting YOLOv8 nano training
+2025-08-09 16:24:17,535 - INFO - Starting YOLOv8 small training
+2025-08-09 20:18:47,722 - INFO - Starting Validating mogger, TIME TO SEE THE FIRE SHI I BUILT LESS GO BUD 
+2025-08-09 20:19:17,257 - ERROR - Error in validation : Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+2025-08-09 20:19:17,257 - INFO - Starting Validating mogger, TIME TO SEE THE FIRE SHI I BUILT LESS GO BUD 
+2025-08-09 20:19:26,899 - ERROR - Error in validation : Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+2025-08-09 20:19:26,899 - INFO - Nano model validation accuracy: 0.00%
+2025-08-09 20:19:26,899 - INFO - Small model validation accuracy: 0.00%
+2025-08-09 20:19:26,972 - INFO - Nano model saved at yolov8n_food_classifier.pt
+2025-08-09 20:19:26,972 - INFO - Small model saved at yolov8s_food_classifier.pt
+2025-08-09 20:19:26,972 - INFO - Classifying image: ./foof/food-101/images/pizza/1001116.jpg
+2025-08-09 20:19:26,993 - INFO - Starting ensemble prediction
+2025-08-09 20:19:27,034 - ERROR - Error in ensemble prediction: np.int64(63)

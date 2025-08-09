@@ -1,15 +1,4 @@
-# Ignore large datasets & model weights
-*.pt
-*.pth
-*.log
-*.zip
-*.tar
-*.rar
-*.jpg
-*.png
-*.jpeg
-*.mp4
+
 
 # Ignore dataset and training output folders
 foof/
-runs/
