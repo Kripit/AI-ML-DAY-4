@@ -28,4 +28,68 @@ The classifier is designed to be **fast**, **lightweight**, and **highly accurat
 
 
 
-Project
+#### Performance Metrics
+
+# Results
+
+The models were evaluated on the test set with the following results:
+
+
+
+
+
+
+
+Model
+
+
+
+Top-1 Accuracy
+
+
+
+Top-5 Accuracy
+
+
+
+
+
+YOLOv8 Small
+
+
+
+0.833
+
+
+
+0.959
+
+
+
+
+
+YOLOv8 Nano
+
+
+
+0.80
+
+
+
+0.91
+
+Metrics Explanation
+
+
+
+
+
+Top-1 Accuracy (top1_acc): The percentage of predictions where the correct class is the top prediction (e.g., 0.833 means 83.3% of images were correctly classified as the top choice).
+
+
+
+Top-5 Accuracy (top5_acc): The percentage of predictions where the correct class is among the top 5 predictions (e.g., 0.959 means 95.9% of images had the correct class in the top 5).
+
+
+
+These metrics were computed during training, with logs showing progress over 3637 iterations in approximately 51 seconds.
