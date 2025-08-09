@@ -25,15 +25,15 @@ The classifier is designed to be **fast**, **lightweight**, and **highly accurat
 
 ## 📂 Project Structure
 
-├── foof/
-│ ├── food-101/ # Dataset folder
-│ └── food101.yaml # Dataset config
-├── runs/train/ # Training logs & checkpoints
-├── main.py # Training script
-├── generate_yaml.py # Utility to generate dataset YAML
-├── yolo8v.py # YOLO training logic
-├── best_food_model.pth # Saved best model weights
-├── yolov8n-cls.pt # Pretrained small model
-├── yolov8s-cls.pt # Pretrained medium model
+. ├── foof/
+.│ ├── food-101/ # Dataset folder
+.│ └── food101.yaml # Dataset config
+'├── runs/train/ # Training logs & checkpoints
+. ├── main.py # Training script
+. ├── generate_yaml.py # Utility to generate dataset YAML
+. ├── yolo8v.py # YOLO training logic
+. ├── best_food_model.pth # Saved best model weights
+. ├── yolov8n-cls.pt # Pretrained small model
+. ├── yolov8s-cls.pt # Pretrained medium model
 ├── yolov11n.pt # Pretrained large model
 └── .gitignore # Ignored files
