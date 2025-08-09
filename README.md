@@ -91,7 +91,7 @@ Model
 
 
 
-2. top2_acc = 0.91
+2. top5_acc = 0.91
 
 Metrics Explanation
 
