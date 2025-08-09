@@ -92,7 +92,7 @@ Top-5 Accuracy (top5_acc): The percentage of predictions where the correct class
 
 
 
-###### Overview
+### Overview
 
 This project implements a production-grade food detection system using YOLOv8 (You Only Look Once, version 8), a state-of-the-art object detection model, to detect and classify food items from images. It focuses on 5 classes (pizza, grilled_chicken, sushi, ice_cream, hamburger) from the Food-101 dataset. Developed as part of Module 11, this project trains and evaluates both YOLOv8 Small and YOLOv8 Nano models, offering a balance between accuracy and efficiency. This system is ideal for food-tech applications (e.g., Zomato, Swiggy, restaurant automation) and stands out in hackathons due to its lightweight design and high performance.
 
