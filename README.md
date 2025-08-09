@@ -92,4 +92,41 @@ Top-5 Accuracy (top5_acc): The percentage of predictions where the correct class
 
 
 
-These metrics were computed during training, with logs showing progress over 3637 iterations in approximately 51 seconds.
+###### Overview
+
+This project implements a production-grade food detection system using YOLOv8 (You Only Look Once, version 8), a state-of-the-art object detection model, to detect and classify food items from images. It focuses on 5 classes (pizza, grilled_chicken, sushi, ice_cream, hamburger) from the Food-101 dataset. Developed as part of Module 11, this project trains and evaluates both YOLOv8 Small and YOLOv8 Nano models, offering a balance between accuracy and efficiency. This system is ideal for food-tech applications (e.g., Zomato, Swiggy, restaurant automation) and stands out in hackathons due to its lightweight design and high performance.
+
+We utilized pretrained YOLOv8 models from the Ultralytics library, which are pre-trained on large datasets like ImageNet and COCO, enabling effective transfer learning. The codebase is built with PyTorch, enhanced with Albumentations for advanced data augmentations (e.g., blur, noise), and managed using a YAML configuration for clean dataset handling. Performance metrics show YOLOv8 Small achieving a top1_acc of 0.833 and top5_acc of 0.959, while YOLOv8 Nano achieves a top1_acc of 0.80 and top5_acc of 0.91. This project showcases industry-level skills in object detection, transfer learning, and production-ready code, making it a strong addition to your portfolio.
+
+
+
+
+
+
+### Key Features
+
+
+
+
+
+. YOLOv8 Small and Nano Models: Two variants trained for food detection, with Small offering higher accuracy and Nano optimized for speed and efficiency.
+
+
+
+. Pretrained Models: Leverages Ultralytics' pretrained weights for faster convergence and better performance.
+
+
+
+. Food-101 Dataset: Uses a subset of 5 classes with 100 training and 20 test images per class.
+
+
+
+. Advanced Augmentations: Implements Albumentations for robust training with techniques like random cropping and noise addition.
+
+
+
+. YAML Configuration: Structured dataset management for scalability and reproducibility.
+
+
+
+. High Accuracy: Achieves competitive top1_acc and top5_acc metrics, suitable for real-world deployment.
