@@ -109,24 +109,24 @@ Top-5 Accuracy (top5_acc): The percentage of predictions where the correct class
 
 
 
-. YOLOv8 Small and Nano Models: Two variants trained for food detection, with Small offering higher accuracy and Nano optimized for speed and efficiency.
+1. YOLOv8 Small and Nano Models: Two variants trained for food detection, with Small offering higher accuracy and Nano optimized for speed and efficiency.
 
 
 
-. Pretrained Models: Leverages Ultralytics' pretrained weights for faster convergence and better performance.
+2. Pretrained Models: Leverages Ultralytics' pretrained weights for faster convergence and better performance.
 
 
 
-. Food-101 Dataset: Uses a subset of 5 classes with 100 training and 20 test images per class.
+3. Food-101 Dataset: Uses a subset of 5 classes with 100 training and 20 test images per class.
 
 
 
-. Advanced Augmentations: Implements Albumentations for robust training with techniques like random cropping and noise addition.
+4. Advanced Augmentations: Implements Albumentations for robust training with techniques like random cropping and noise addition.
 
 
 
-. YAML Configuration: Structured dataset management for scalability and reproducibility.
+5. YAML Configuration: Structured dataset management for scalability and reproducibility.
 
 
 
-. High Accuracy: Achieves competitive top1_acc and top5_acc metrics, suitable for real-world deployment.
+6. High Accuracy: Achieves competitive top1_acc and top5_acc metrics, suitable for real-world deployment.
