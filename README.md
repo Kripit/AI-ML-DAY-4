@@ -44,7 +44,15 @@ Model
 
 
 
-Top-1 Accuracy
+# Top-1 Accuracy
+
+- Definition: This measures whether the model’s single highest probability prediction (the "top 1") matches the true class of the image.
+In Your Case: If an image is actually a pizza, the model’s top prediction must be pizza for it to count as correct. For example:
+
+- True class: pizza
+Model predictions: 70% pizza, 20% sushi, 5% ice_cream, 3% grilled_chicken, 2% hamburger
+Result: Correct (since pizza is the top prediction).
+If the top prediction was sushi (e.g., 40% sushi, 30% pizza), it’s wrong.
 
 
 
