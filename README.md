@@ -47,44 +47,51 @@ Model
 # Top-1 Accuracy
 
 - Definition: This measures whether the model’s single highest probability prediction (the "top 1") matches the true class of the image.
-In Your Case: If an image is actually a pizza, the model’s top prediction must be pizza for it to count as correct. For example:
+- If an image is actually a pizza, the model’s top prediction must be pizza for it to count as correct. For example:
 
 - True class: pizza
-Model predictions: 70% pizza, 20% sushi, 5% ice_cream, 3% grilled_chicken, 2% hamburger
-Result: Correct (since pizza is the top prediction).
-If the top prediction was sushi (e.g., 40% sushi, 30% pizza), it’s wrong.
+  . Model predictions: 70% pizza, 20% sushi, 5% ice_cream, 3% grilled_chicken, 2% hamburger
+2. Result: Correct (since pizza is the top prediction).
+3. If the top prediction was sushi (e.g., 40% sushi, 30% pizza), it’s wrong.
 
 
 
-Top-5 Accuracy
+# Top-5 Accuracy
 
+- Definition: This measures whether the true class is among the model’s top 5 highest probability predictions. Since you have only 5 classes, this means the true class must be in the model’s ranked list of predictions.
+-  If an image is a pizza, the model’s top 5 predictions (in order of probability) must include pizza anywhere in that list for it to count as correct. For example:
 
-
-
-
-YOLOv8 Small
-
-
-
-0.833
-
-
-
-0.959
+- True class: pizza
+1. Model predictions: 40% sushi, 30% pizza, 15% ice_cream, 10% grilled_chicken, 5% hamburger
+2. Result: Correct (since pizza is in the top 5).
+3. If pizza wasn’t in the top 5 (e.g., all predictions were for other classes), it’s wrong.
 
 
 
 
-
-YOLOv8 Nano
-
-
-
-0.80
+## YOLOv8 Small
 
 
 
-0.91
+ 1. top1_acc = 0.833
+
+
+
+2.  top5_acc = 0.959
+
+
+
+
+
+## YOLOv8 Nano
+
+
+
+1. top1_acc = 0.80
+
+
+
+2. top2_acc = 0.91
 
 Metrics Explanation
 
